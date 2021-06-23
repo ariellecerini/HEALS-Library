@@ -1,15 +1,15 @@
-import MyHeader from './Header';
+import DashboardHeader from './Header';
 
 export default {
-  title: 'Example/Header',
-  component: MyHeader,
+  title: 'Dashboard/Dashboard Header',
+  component: DashboardHeader,
 };
 
 const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
-  components: { MyHeader },
+  components: { DashboardHeader },
   template:
-    '<my-header :user="user" @onLogin="onLogin" @onLogout="onLogout" @onCreateAccount="onCreateAccount" />',
+    '<dashboard-header :user="user" @onLogin="onLogin" @onLogout="onLogout" @onCreateAccount="onCreateAccount" />',
 });
 
 export const LoggedIn = Template.bind({});
