@@ -1,2 +1,3 @@
 import {InfoModule} from "./Dashboard/Components/InfoModule"
-export {InfoModule}
+import {ChartModule} from "./Dashboard/Components/ChartModule"
+export {InfoModule, ChartModule}
