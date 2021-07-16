@@ -1,3 +1,3 @@
-import {InfoModule} from "./Dashboard/Components/InfoModule"
-import {ChartModule} from "./Dashboard/Components/ChartModule"
-export {InfoModule, ChartModule}
+
+export * from "./Dashboard"
+export * from "./Health-Coach"

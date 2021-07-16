@@ -22,13 +22,22 @@
         >
           GitHub
         </a>
+
+        <InfoModule title="Info Moduuuuuuuule"/>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+
+import {InfoModule} from "~/stories"
+
+export default {
+  components: {
+    InfoModule
+  }
+}
 </script>
 
 <style>
