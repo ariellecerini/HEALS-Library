@@ -2,13 +2,15 @@
   "name": "heals-library",
   "version": "1.0.0",
   "private": true,
+  "main": "stories/index.js",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=8ae0d6a0891f"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
@@ -23,6 +25,7 @@
     "@storybook/addon-links": "^6.3.0",
     "@storybook/vue": "^6.3.0",
     "babel-loader": "^8.2.2",
+    "chromatic": "^5.9.2",
     "vue-loader": "^15.9.7"
   }
 }
