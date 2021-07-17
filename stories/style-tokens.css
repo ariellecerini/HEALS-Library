@@ -55,7 +55,7 @@
      --ui-05: var(--Gray100);
 
     /* Interactive Colors */ 
-     --interactive-01: var(--RPI_Blue-50);
+     --interactive-01: var(--RPI_Red-50);
      --interactive-02: var(--Gray80);
      --interactive-03: var(--RPI_Blue-50);
      --interactive-04: var(--RPI_Blue-50);
@@ -142,6 +142,7 @@
      --letter-spacing-01: 0; 
      --letter-spacing-02: .16px; 
      --letter-spacing-03: .32px; 
+     --letter-spacing-04: 0.07px; 
 
     /* line height */ 
      --line-height-01: 1.125rem; 
@@ -161,7 +162,14 @@
      --font-weight-semibold: 600; 
      --font-weight-bold: 800; 
 
+
+/* Box Shadows */ 
+    --box-shadow-inset-01: inset 0px 0px 2px #00000029;
+    --box-shadow-inset-o2: inset 0px 0px 3px #00000029;
+
  }
+
+
 
 /*Type Styling */ 
 

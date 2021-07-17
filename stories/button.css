@@ -11,23 +11,23 @@
   letter-spacing: 0.02px;
 }
 .storybook-button--primary {
-  background: #667BA2 0% 0% no-repeat padding-box;
+  background: var(--interactive-01);
   box-shadow: inset 0px 3px 6px #00000029;
   border-radius: 6px;
   border: none;
-  font-weight:400;
-  color:white; 
+  font-weight: 400;
+  color: var(--text-04); 
   text-align: left;
   opacity: 1;
 }
 
 .storybook-button--primary:hover {
-  background-color: #2B517F 0% 0% no-repeat padding-box;
+  background-color: var(--hover-primary);
   font-weight: 600;
 }
 
 .storybook-button--primary:active {
-  background-color: #00205B;
+  background-color: var(--active-primary);
   font-weight:400;
 }
 
@@ -37,8 +37,8 @@
 } */
 
 .storybook-button--primary:disabled{
-  background: #F4F4F4 0% 0% no-repeat padding-box;
-  color: #C6C6C6;
+  background: var(--Disabled-01);
+  color: var(--Disabled-02);
   font-weight:400;
 
 }
@@ -47,24 +47,23 @@
 
 .storybook-button--secondary {
   color: var(--black);
-  background: #FFFFFF 0% 0% no-repeat padding-box;
+  background: var(--ui-02);
   box-shadow: inset 0px 0px 7px #00000029;
   border-radius: 6px;
   opacity: 1;
+  color: var(--interactive-02);
   font-weight:400;
 
 }
 
 .storybook-button--secondary:hover {
-  background-color: #E5E5E5 0% 0% no-repeat padding-box;
+  background-color: var(--hover-secondary);
   font-weight: 600;
 }
 
 .storybook-button--secondary:active {
-  background-color: #E5E5E5;
+  background-color: var(--active-secondary);
   font-weight:400;
-
- 
 }
 
 /* .storybook-button--secondary:focus {
@@ -73,8 +72,8 @@
 } */
 
 .storybook-button--secondary:disabled{
-  background: #F4F4F4 0% 0% no-repeat padding-box;
-  color: #C6C6C6;
+  background: var(--Disabled-01);
+  color: var(--Disabled-02);
   font-weight:400;
 
 }

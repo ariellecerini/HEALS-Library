@@ -93,3 +93,5 @@ sw.*
 storybook-static
 
 .history
+.nvmrc
+.package-lock.json 

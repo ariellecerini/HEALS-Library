@@ -4,6 +4,8 @@
 
 <script>
 import '../../dashboard.css'
+// import '../../../assets/normalize.css'
+
 // import '../../../assets/style.css'
 
 export default {

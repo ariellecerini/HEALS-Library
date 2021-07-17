@@ -5,6 +5,7 @@
 <script>
 import './Menu.css';
 import '../../../assets/style.css'
+// import '../../../assets/normalize.css'
 
 export default {
   name: 'menu-item',

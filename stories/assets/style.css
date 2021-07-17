@@ -71,6 +71,10 @@
   
     /*single view slider*/
     --cardBorderRadius: 10pt;
+
+    /*menu styling*/ 
+    --menuBackground: var(--white);
+    --sidePanelBackground: var(--white);
   }
 
 body{

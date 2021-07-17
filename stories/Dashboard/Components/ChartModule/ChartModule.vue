@@ -6,6 +6,8 @@
 
 <script>
 import '../../dashboard.css';
+// import '../../../assets/normalize.css'
+
 import CardComponent from '../Card Component/CardComponent.vue';
 // import '../../../assets/style.css'
 

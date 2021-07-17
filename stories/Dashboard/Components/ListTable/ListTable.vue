@@ -10,6 +10,8 @@
 import '../../dashboard.css';
 // import '../../../assets/style.css'
 import ListItem from '../ListItem/ListItem.vue'
+// import '../../../assets/normalize.css'
+
 export default {
   name: 'list-table',
   components: { ListItem },

@@ -1,5 +1,0 @@
-export { default as CardComponent } from "./Card Component/CardComponent.vue"
-export { default as ChartModule } from "./ChartModule/ChartModule.vue"
-export { default as InfoModule } from "./InfoModule/InfoModule.vue"
-export { default as ListItem } from "./ListItem/ListItem.vue"
-export { default as ListTable } from "./ListTable/ListTable.vue"

@@ -11,11 +11,13 @@
 import '../../dashboard.css';
 import CardComponent from '../Card Component/CardComponent.vue';
 import ListTable from '../ListTable/ListTable.vue'
+// import '../../../assets/normalize.css'
+
 // import '../../../assets/style.css'
 
 export default {
   name: 'info-module',
-  components: { CardComponent },
+  components: { CardComponent, ListTable },
   props: {
     title: {
       type: String,
