@@ -6,51 +6,17 @@
 
             </div>
     <table>
-        <tr class="table-header">
-            <th>
-                heading
-            </th>
-            <th>
-                heading
-            </th>
-
-            <th>
-                heading
+        <tr class="table-header" v-for="item in dataVals.slice(0,1)" :key="item">
+            <th  v-for="(value, name) in item" :key="name">
+                {{ name }} 
             </th>
         </tr>
-        <tr>
-            <td>
-                content
-                </td> 
-                            <td>
-                content
-                </td> 
-                            <td>
-                content
+        <tr v-for="dataVal in dataVals" :key="dataVal.index">
+            <td v-for="(value) in dataVal" :key="value">
+               {{ value }}
                 </td> 
         </tr>
-         <tr>
-            <td>
-                content
-                </td> 
-                            <td>
-                content
-                </td> 
-                            <td>
-                content
-                </td> 
-        </tr>
-         <tr>
-            <td>
-                content
-                </td> 
-                            <td>
-                content
-                </td> 
-                            <td>
-                content
-                </td> 
-        </tr>
+    
     </table>
 </div>
 </template>
@@ -66,8 +32,19 @@ export default {
      title: {
       type: String,
       required: true
+    }, 
+    dataVals: { 
+        type: Array, 
+        required: true
     }
- }
+ },
+ computed:{
+  tableHeader(){
+   var comp = this.dataVals;
+   return comp[0];
+   
+  }
+}
 }
 </script>
 
